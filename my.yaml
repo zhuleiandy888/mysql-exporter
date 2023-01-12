@@ -1,0 +1,45 @@
+host:
+  test001:
+    ip: 192.168.42.128
+    user: root
+    pwd: 45ef3u@d4Dfd
+    port: 3306
+  test002:
+    ip: 192.168.42.128
+    user: root
+    pwd: 45ef3u@d4Dfd
+    port: 3307
+global_status: false
+global_variables: false
+slave_status: false
+processlist: false
+mysql_user: false
+innodb_tablespaces: false
+binlog_size: false
+table_locks: false
+client_stats: false
+engine_innodb_status: false
+table_schema: false
+innodb_metrics: false
+auto_increment_columns: false
+table_io_waits: false
+index_io_waits: false
+events_statements: false
+events_statements_sum: false
+events_waits: false
+file_events: false
+file_instances: false
+memory_events: false
+replication_group_members: false
+replication_group_member_stats: false
+replication_applier_status_by_worker: false
+user_stats: false
+table_stats: false
+schema_stats: false
+innodb_cmp: false
+innodb_cmp_mem: false
+query_response_time: false
+engine_tokudb_status: false
+heartbeat: false
+slave_hosts: false
+replica_host: false
